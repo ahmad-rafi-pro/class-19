@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Odd Calculator</title>
+    <!-- Google Fonts Link -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <!--Css link-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>
+        Even Odd Number Calculator
+    </h1>
+    <div class="container">
+        <div class="screen-body-item">
+            <div class="app">
+                <div class="form-group row">
+                    <div class="form-text w-50">
+                        Enter Number:
+                    </div>
+                    <div class="form-input w-50">
+                        <input type="text" class="form-control" placeholder="Any Number" id="nmbr" />
+                    </div>   
+                </div>
+                <div class="btn">
+                    <button input type="button" class="form-button" onclick="calculate()">Calculate</button>
+                </div>
+          <!-- for showing the result-->
+          <div class="result">
+             <p id="showdata"></p>
+          </div>      
+    </div>
+    <!--Js link-->
+    <script src="./js/app.js"></script>
+</body>
+</html>
